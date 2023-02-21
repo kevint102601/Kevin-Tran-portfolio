@@ -1,3 +1,5 @@
+/* The body gets rid of margin, padding and add fonts to our content also aligns the content in the center */
+
 body {
     margin: 0;
     padding: 0;
@@ -7,30 +9,45 @@ body {
 
 
 
-
+/* changes background, padding, margin and adds color to the text and increased font size */
 header>h1 {
-    background-color: black;
+    background: black;
     padding: 0;
     margin: 0;
     color: #c6e2ff;
     font-size: 50px;
 }
 
+
+/* Changes the background color of everything in main */
 main {
     background-color: #f9ba84;
 }
 
+/* Changes the height of the img */
 .codeimg {
     height: 300px;
 }
 
+/* makes the links black */
 .link {
     color: black
 }
 
+/* changes the background color on footer removes padding and margin and increasing height */
 .footer>h2 {
     background-color: #f28f93;
     padding: 0;
     margin: 0;
     height: 100px;
+}
+
+/* link turn blue when you hover over it */
+.link:hover {
+    color: blue;
+}
+
+/* when the link is visited it changes to green */
+.link:visited {
+    color: green;
 }
